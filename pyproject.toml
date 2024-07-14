@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "workshop-estrutura-dados"
+version = "0.1.0"
+description = "meu projeto de etl"
+authors = ["Fasri <106215404+Fasri@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
